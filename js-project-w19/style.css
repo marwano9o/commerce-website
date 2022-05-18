@@ -1,0 +1,83 @@
+*{
+    margin= 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+h1{
+    font-size: 50px;
+    line-height: 65px;
+    color:red;
+}
+h2{
+    font-size: 45px;
+    line-height: 55px;
+    color:black;
+}
+h3{
+    font-size: 40px;
+    line-height: 44px;
+    color:black;
+}
+h4{
+    font-size: 30px;
+    line-height: 44px;
+    color:black;
+}
+h5{
+    font-size: 20px;
+    line-height: 33px;
+    color:black;
+}
+h6 {
+    font-size: 15px;
+    line-height: 22px;
+    color:black;
+}
+/* header  */
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+    box-shadow: 0 5px rgb(0,0,0.6);
+}
+#navbar {
+    display:flex ;
+    align-items: center;
+    justify-items: center;
+
+} 
+#navbar li{
+    list-style: none;
+    padding:0 20px;
+    position: relative;
+
+}
+#navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600 ;
+    color: rgb(37, 30, 30);
+    transition: o,2s ease;
+}
+#navbar li a.active{
+    color:rgb(65, 214, 214);
+}
+ #navbar li a:hover{
+     color:rgb(210, 59, 107);
+     font-size: 17px;
+ }
+ #navbar li a.active::after,
+ #navbar li a:hover::after{
+     content: "";
+     width:50%;
+     height: 2px;
+     background:rgb(65, 214, 214) ;
+     position: absolute;
+     bottom:-4px;
+     left:20px;
+ }
