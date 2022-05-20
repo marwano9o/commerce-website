@@ -1,1 +1,5 @@
-document.getElementById("root").style.color = "red";
+function addname()
+{
+let newname= document.querySelector("#user").value
+document.querySelector("#username") = "Hello" + newname;
+}

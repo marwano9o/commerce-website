@@ -123,7 +123,7 @@ h6 {
     color: black;
 }
 
-#hero button{
+.button1{
     background-color: antiquewhite;
     color: rgb(80, 124, 110);
     border: 0;
@@ -191,11 +191,11 @@ h6 {
 }
 
 /* production */
-#product1 {
+.product1 {
     text-align: center;
     
 }
-#product1 .pro{
+.product1 .pro{
     
     width:25%;
     margin: 1px;
@@ -207,38 +207,38 @@ h6 {
     box-shadow: 20px 10px 30px rgb(127, 88, 88);
     
 }
-#product1 .pro:hover{
+.product1 .pro:hover{
     box-shadow: 20px 10px 30px rgb(143, 236, 85);
     
 }
-#product1 .pro{
+.product1 .pro{
     position: relative;
     padding:10px;
     margin:13px ;
 }
-#product1 .pro img{
+.product1 .pro img{
     width: 90%;
     border-radius:20px;
     
 }
-#product1 .pro .des{
+.product1 .pro .des{
     text-align: start;
     padding:10px 0;
 }
-#product1 .pro span{
+.product1 .pro span{
     color: rgb(130, 166, 223);
 }
-#product1 .pro .dec h5{
+.product1 .pro .dec h5{
     padding-top: 7px;
     color: rgb(4, 47, 47);
     font-size: 14px;
 
 }
-#product1 .pro .shop-cart{
+.product1 .pro .shop-cart{
     width:100%;
     
 }
-#product1 .pro .cart{
+.product1 .pro .cart{
     
     width: 40px;
     height: 40px;
@@ -249,19 +249,189 @@ h6 {
     right:14px;
 
 }
-#product1 .flex { 
+.product1 .flex { 
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 12px 10px 10px 10px;
-    margin: 12px;
-     
+    margin: 12px;    
+
+}
+/* banner*****  section style  */
+#banner{
+    padding-left: 70px;
+    color: rgb(23, 171, 171);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("./img/5.jpg");
+    width:100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+
+
+}
+#banner span{
+    color:red;
+}
+#banner button{
+    border:none;
+    outline: none;
+    transition:0.2s ;
+}
+#banner button:hover{
+ background-color: lightseagreen;
+}
+#sm-banner{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
 
 }
 
+#banner-box1 {
+    margin: 10px;
+  paddingt-top: 17px;
+  color: rgb(23, 171, 171);
+  align-items: flex-start;
+  background-image: url("./img/7.jpg");
+  color:white;
+  min-width:580px ;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px; ;
 
+}
+#banner-box2 {
+    margin: 10px;
+  
+  color: rgb(23, 171, 171);
+  align-items: flex-start;
+  /* text-align: ; */
+  background-image: url("./img/4.jpg");
+  color:white;
+  min-width:580px ;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px; ;
 
+}
+#sm-banner button{
+    margin-top: 20px;
+}
+    #sm-banner span ,#sm-banner h1,#sm-banner h2{
+    margin-top: 20px;
+    color: whitesmoke;
 
+}
+#sm-banner div:hover button{
+    background-color: aqua;
+}
 
+.banner-box {
+    margin: 10px;
+  paddingt-top: 17px;
+  color: rgb(23, 171, 171);
+  align-items: flex-start;
+  background-image: url("./img/7.jpg");
+  color:white;
+  min-width:30px ;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 20px; 
+  margin-bottom:20px;
 
+}
+.banner-box h2{
+    color:blanchedalmond;
+}
+#banner3{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 30px;
 
+}
+#newstext{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    background-image: url("./img/4.jpg");
+   min-height: 40vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-color: black;
+    color:antiquewhite;
+}
+ h4 {
+ color:rgb(59, 39, 10)));
+}
+.textcolor2{
+    color:whitesmoke;
+}
+  .color2 {
+    color:whitesmoke;  
+} 
+#newstext p span {  
+    color:red;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+
+    width:40%;
+
+}
+#newstext input{
+    height:53px;
+/*     
+    padding:0 1.25em;
+    font-size: 14px;
+    width:100%;
+    background-color: lightblue;
+    border:1px solid transparent;
+    border-bottom: 4px;
+    outline: none; */
+}
+#newstext button{
+    color:green;
+    height:53px;
+    width:20%
+    border:1px solid transparent;
+    border-bottom: 4px;
+    outline: none;
+    background-color:olivedrab;
+    white-space: nowrap;
+    
+}
+@media(min-width:777px;){
+    #navbar{
+        display:flex;
+        flex-direction:column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top:0;
+        right:0px;
+        height:100vh;
+        width:300px;
+        background-color:lightgray ;
+        box-shadow: px 30px 40px;
+        padding: 8px 0 0 10px;
+    }
+    body{
+        /* background-color:green; */
+    }
+}
